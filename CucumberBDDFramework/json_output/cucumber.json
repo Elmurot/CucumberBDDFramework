@@ -1,310 +1,289 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-05-09T18:02:54.357Z",
-        "line": 9,
-        "name": "Login with incorrect username and correct password",
+        "start_timestamp": "2019-05-09T18:44:06.034Z",
+        "before": [
+          {
+            "result": {
+              "duration": 513262,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "free crm create deal test",
         "description": "",
-        "id": "free-crm-application-testing;login-with-incorrect-username-and-correct-password",
+        "id": "free-crm-app-test;free-crm-create-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 36795,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 254731,
-              "status": "skipped"
+              "duration": 140401,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on deal page",
+            "match": {
+              "location": "HooksStepDefinition.user_is_on_deal_oage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52153,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fills the deals form",
+            "match": {
+              "location": "HooksStepDefinition.user_fills_the_deals_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79194,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "deal is created",
+            "match": {
+              "location": "HooksStepDefinition.deal_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-05-09T18:44:06.037Z",
+        "before": [
+          {
+            "result": {
+              "duration": 79585,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "free crm create contact test",
+        "description": "",
+        "id": "free-crm-app-test;free-crm-create-contact-test",
+        "after": [
+          {
+            "result": {
+              "duration": 61635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 77151,
+              "status": "passed"
             },
             "line": 10,
-            "name": "This is a invalid login test",
+            "name": "user is on contact page",
             "match": {
-              "location": "TaggingStepDefinition.this_is_a_invalid_login_test()"
+              "location": "HooksStepDefinition.user_is_on_contact_page()"
             },
             "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
           },
           {
-            "name": "@RegressionTest"
+            "result": {
+              "duration": 42007,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills the contact form",
+            "match": {
+              "location": "HooksStepDefinition.user_fills_the_contact_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70071,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "contact is created",
+            "match": {
+              "location": "HooksStepDefinition.contact_is_created()"
+            },
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2019-05-09T18:02:54.362Z",
+        "start_timestamp": "2019-05-09T18:44:06.039Z",
+        "before": [
+          {
+            "result": {
+              "duration": 87604,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.setUP()"
+            }
+          }
+        ],
         "line": 21,
-        "name": "Create a tasks",
+        "name": "free crm create mail test",
         "description": "",
-        "id": "free-crm-application-testing;create-a-tasks",
+        "id": "free-crm-app-test;free-crm-create-mail-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 34094,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 26628,
-              "status": "skipped"
+              "duration": 44038,
+              "status": "passed"
             },
-            "line": 22,
-            "name": "This is a tasks test case",
+            "line": 16,
+            "name": "user is on mail page",
             "match": {
-              "location": "TaggingStepDefinition.this_is_a_tasks_test_case()"
+              "location": "HooksStepDefinition.user_is_on_mail_page()"
             },
             "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
           },
           {
-            "name": "@RegressionTest"
+            "result": {
+              "duration": 41483,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user fills the mail form",
+            "match": {
+              "location": "HooksStepDefinition.user_fills_the_mail_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39675,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "mail is created",
+            "match": {
+              "location": "HooksStepDefinition.mail_is_created()"
+            },
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2019-05-09T18:02:54.362Z",
-        "line": 49,
-        "name": "Search a call",
+        "start_timestamp": "2019-05-09T18:44:06.039Z",
+        "before": [
+          {
+            "result": {
+              "duration": 101159,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "free crm create mail test",
         "description": "",
-        "id": "free-crm-application-testing;search-a-call",
+        "id": "free-crm-app-test;free-crm-create-mail-test;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 28016,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 26881,
-              "status": "skipped"
+              "duration": 29966,
+              "status": "passed"
             },
-            "line": 50,
-            "name": "This is a search call test",
+            "line": 16,
+            "name": "user is on mail page",
             "match": {
-              "location": "TaggingStepDefinition.this_is_a_search_call_test()"
+              "location": "HooksStepDefinition.user_is_on_mail_page()"
             },
             "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
           },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@End2End"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-05-09T18:02:54.363Z",
-        "line": 53,
-        "name": "Search an email",
-        "description": "",
-        "id": "free-crm-application-testing;search-an-email",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
           {
             "result": {
-              "duration": 5176,
-              "status": "skipped"
+              "duration": 29116,
+              "status": "passed"
             },
-            "line": 54,
-            "name": "This is a search email test",
+            "line": 17,
+            "name": "user fills the mail form",
             "match": {
-              "location": "TaggingStepDefinition.this_is_a_search_email_test()"
+              "location": "HooksStepDefinition.user_fills_the_mail_form()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
+            "keyword": "When "
           },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@End2End"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-05-09T18:02:54.364Z",
-        "line": 57,
-        "name": "Search a docs",
-        "description": "",
-        "id": "free-crm-application-testing;search-a-docs",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
           {
             "result": {
-              "duration": 7580,
-              "status": "skipped"
+              "duration": 27411,
+              "status": "passed"
             },
-            "line": 58,
-            "name": "This is a search docs test",
+            "line": 18,
+            "name": "mail is created",
             "match": {
-              "location": "TaggingStepDefinition.this_is_a_search_docs_test()"
+              "location": "HooksStepDefinition.mail_is_created()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@End2End"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-05-09T18:02:54.364Z",
-        "line": 61,
-        "name": "Search a forms",
-        "description": "",
-        "id": "free-crm-application-testing;search-a-forms",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5270,
-              "status": "skipped"
-            },
-            "line": 62,
-            "name": "This is a search forms test",
-            "match": {
-              "location": "TaggingStepDefinition.this_is_a_search_forms_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
-          },
-          {
-            "name": "@SmokeTest"
-          },
-          {
-            "name": "@End2End"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-05-09T18:02:54.365Z",
-        "line": 65,
-        "name": "validate a report",
-        "description": "",
-        "id": "free-crm-application-testing;validate-a-report",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5241,
-              "status": "skipped"
-            },
-            "line": 66,
-            "name": "This is a report test",
-            "match": {
-              "location": "TaggingStepDefinition.this_is_a_report_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
-          },
-          {
-            "name": "@End2End"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-05-09T18:02:54.366Z",
-        "line": 69,
-        "name": "Application Logout",
-        "description": "",
-        "id": "free-crm-application-testing;application-logout",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 11154,
-              "status": "skipped"
-            },
-            "line": 70,
-            "name": "This is a logout test",
-            "match": {
-              "location": "TaggingStepDefinition.this_is_a_logout_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
-          },
-          {
-            "name": "@End2End"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2019-05-09T18:02:54.366Z",
-        "line": 72,
-        "name": "browser closed",
-        "description": "",
-        "id": "free-crm-application-testing;browser-closed",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 6308,
-              "status": "skipped"
-            },
-            "line": 73,
-            "name": "This is a close broswer test",
-            "match": {
-              "location": "TaggingStepDefinition.this_is_a_close_broswer_test()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@FunctionalTest"
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Free CRM application testing",
+    "name": "Free CRM app test",
     "description": "",
-    "id": "free-crm-application-testing",
+    "id": "free-crm-app-test",
     "keyword": "Feature",
-    "uri": "file:/Users/elmurotyangiboev/git/CucumberBDDFramework/CucumberBDDFramework/src/main/java/features/tagging.feature",
-    "tags": [
-      {
-        "name": "@FunctionalTest",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:/Users/elmurotyangiboev/git/CucumberBDDFramework/CucumberBDDFramework/src/main/java/features/hooks.feature",
+    "tags": []
   }
 ]
