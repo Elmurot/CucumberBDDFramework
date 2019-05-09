@@ -3,11 +3,38 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-05-09T18:44:06.034Z",
+        "start_timestamp": "2019-05-09T19:19:39.228Z",
         "before": [
           {
             "result": {
-              "duration": 513262,
+              "duration": 534038,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 88610,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71997,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 188279,
               "status": "passed"
             },
             "match": {
@@ -15,18 +42,45 @@
             }
           }
         ],
-        "line": 3,
-        "name": "free crm create deal test",
+        "line": 4,
+        "name": "This is First test",
         "description": "",
-        "id": "free-crm-app-test;free-crm-create-deal-test",
+        "id": "test-tagged-hooks;this-is-first-test",
         "after": [
           {
             "result": {
-              "duration": 36795,
+              "duration": 66514,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45385,
               "status": "passed"
             },
             "match": {
               "location": "HooksStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 63095,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42484,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
             }
           }
         ],
@@ -35,48 +89,80 @@
         "steps": [
           {
             "result": {
-              "duration": 140401,
+              "duration": 126124,
               "status": "passed"
             },
             "line": 5,
-            "name": "user is on deal page",
+            "name": "this is the first step",
             "match": {
-              "location": "HooksStepDefinition.user_is_on_deal_oage()"
+              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 52153,
+              "duration": 62858,
               "status": "passed"
             },
             "line": 6,
-            "name": "user fills the deals form",
+            "name": "this is the second step",
             "match": {
-              "location": "HooksStepDefinition.user_fills_the_deals_form()"
+              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 79194,
+              "duration": 93992,
               "status": "passed"
             },
             "line": 7,
-            "name": "deal is created",
+            "name": "this is the third step",
             "match": {
-              "location": "HooksStepDefinition.deal_is_created()"
+              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
           }
         ]
       },
       {
-        "start_timestamp": "2019-05-09T18:44:06.037Z",
+        "start_timestamp": "2019-05-09T19:19:39.232Z",
         "before": [
           {
             "result": {
-              "duration": 79585,
+              "duration": 110128,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 64899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66733,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 124747,
               "status": "passed"
             },
             "match": {
@@ -84,18 +170,45 @@
             }
           }
         ],
-        "line": 9,
-        "name": "free crm create contact test",
+        "line": 10,
+        "name": "This is Second test",
         "description": "",
-        "id": "free-crm-app-test;free-crm-create-contact-test",
+        "id": "test-tagged-hooks;this-is-second-test",
         "after": [
           {
             "result": {
-              "duration": 61635,
+              "duration": 32497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 40660,
               "status": "passed"
             },
             "match": {
               "location": "HooksStepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68934,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 61440,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
             }
           }
         ],
@@ -104,48 +217,80 @@
         "steps": [
           {
             "result": {
-              "duration": 77151,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user is on contact page",
-            "match": {
-              "location": "HooksStepDefinition.user_is_on_contact_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 42007,
+              "duration": 64100,
               "status": "passed"
             },
             "line": 11,
-            "name": "user fills the contact form",
+            "name": "this is the first step",
             "match": {
-              "location": "HooksStepDefinition.user_fills_the_contact_form()"
+              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
             },
-            "keyword": "When "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 70071,
+              "duration": 63503,
               "status": "passed"
             },
             "line": 12,
-            "name": "contact is created",
+            "name": "this is the second step",
             "match": {
-              "location": "HooksStepDefinition.contact_is_created()"
+              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40957,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "this is the third step",
+            "match": {
+              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Second"
           }
         ]
       },
       {
-        "start_timestamp": "2019-05-09T18:44:06.039Z",
+        "start_timestamp": "2019-05-09T19:19:39.234Z",
         "before": [
           {
             "result": {
-              "duration": 87604,
+              "duration": 163413,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71454,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66140,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeThird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 126497,
               "status": "passed"
             },
             "match": {
@@ -153,137 +298,100 @@
             }
           }
         ],
-        "line": 21,
-        "name": "free crm create mail test",
+        "line": 16,
+        "name": "This is Third test",
         "description": "",
-        "id": "free-crm-app-test;free-crm-create-mail-test;;2",
+        "id": "test-tagged-hooks;this-is-third-test",
         "after": [
           {
             "result": {
-              "duration": 34094,
+              "duration": 52757,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterThird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54784,
               "status": "passed"
             },
             "match": {
               "location": "HooksStepDefinition.tearDown()"
             }
+          },
+          {
+            "result": {
+              "duration": 55554,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 62376,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 44038,
+              "duration": 53123,
               "status": "passed"
             },
-            "line": 16,
-            "name": "user is on mail page",
+            "line": 17,
+            "name": "this is the first step",
             "match": {
-              "location": "HooksStepDefinition.user_is_on_mail_page()"
+              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 41483,
+              "duration": 52630,
               "status": "passed"
             },
-            "line": 17,
-            "name": "user fills the mail form",
+            "line": 18,
+            "name": "this is the second step",
             "match": {
-              "location": "HooksStepDefinition.user_fills_the_mail_form()"
+              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 39675,
+              "duration": 57202,
               "status": "passed"
             },
-            "line": 18,
-            "name": "mail is created",
+            "line": 19,
+            "name": "this is the third step",
             "match": {
-              "location": "HooksStepDefinition.mail_is_created()"
+              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
             },
             "keyword": "Then "
           }
-        ]
-      },
-      {
-        "start_timestamp": "2019-05-09T18:44:06.039Z",
-        "before": [
-          {
-            "result": {
-              "duration": 101159,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.setUP()"
-            }
-          }
         ],
-        "line": 22,
-        "name": "free crm create mail test",
-        "description": "",
-        "id": "free-crm-app-test;free-crm-create-mail-test;;3",
-        "after": [
+        "tags": [
           {
-            "result": {
-              "duration": 28016,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 29966,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is on mail page",
-            "match": {
-              "location": "HooksStepDefinition.user_is_on_mail_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 29116,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user fills the mail form",
-            "match": {
-              "location": "HooksStepDefinition.user_fills_the_mail_form()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 27411,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "mail is created",
-            "match": {
-              "location": "HooksStepDefinition.mail_is_created()"
-            },
-            "keyword": "Then "
+            "name": "@Third"
           }
         ]
       }
     ],
-    "name": "Free CRM app test",
+    "name": "Test Tagged Hooks",
     "description": "",
-    "id": "free-crm-app-test",
+    "id": "test-tagged-hooks",
     "keyword": "Feature",
-    "uri": "file:/Users/elmurotyangiboev/git/CucumberBDDFramework/CucumberBDDFramework/src/main/java/features/hooks.feature",
+    "uri": "file:/Users/elmurotyangiboev/git/CucumberBDDFramework/CucumberBDDFramework/src/main/java/features/taggedhooks.feature",
     "tags": []
   }
 ]
