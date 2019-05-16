@@ -36,7 +36,6 @@
 //	@Then("^user enters \"(.*)\" and \"(.*)\"$")
 //	public void user_enters_username_and_password(String username, String password) {
 //		driver.findElement(By.name("username")).sendKeys(username);
-//		;
 //		driver.findElement(By.name("password")).sendKeys(password);
 //	}
 //
@@ -56,7 +55,7 @@
 //	
 //	@Then("user moves to new contact page")
 //	public void user_moves_to_new_contact_page() {
-//		driver.switchTo().frame("mainpanel");
+//		driver.switchTo().frame("mainpanel");HH
 //		Actions action = new Actions(driver);
 //		action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Contacts')]"))).build().perform();
 //		driver.findElement(By.xpath("//a[contains(text(),'New Contact')]")).click();;
